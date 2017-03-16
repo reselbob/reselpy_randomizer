@@ -21,7 +21,9 @@ The follow sections provide a listing of each method with examples
 
 ## Import statement
 
-`from randomizer import Randomizer`
+```python
+from randomizer.randomizer import Randomizer
+```
 
 ## Randomizer.get_random_first_name()
 
