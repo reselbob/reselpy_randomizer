@@ -126,8 +126,9 @@ str = Randomizer.get_random_string(string_length)
 number_of_words = 12
 phrase = Randomizer.get_random_phrase(number_of_words)
  ```
- ```
-#returns
+
+**returns**
+
 'capsheaf millenarist levoversion yawnful dvandva extradition Feramorz decameral begut gallowglass octacolic daggerlike'
-```
+
 
