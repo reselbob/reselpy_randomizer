@@ -19,7 +19,7 @@ class Randomizer:
     alphabet = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+'
 
     @staticmethod
-    def get_random_address():
+    def get_random_city():
         return Randomizer.secure_random.choice(Randomizer.cities)
     @staticmethod
     def get_random_first_name():
@@ -33,11 +33,10 @@ class Randomizer:
         ext = Randomizer.secure_random.choice(Randomizer.extensions)
         return '{}.{}@{}.{}'.format(first_name, last_name, company, ext)
     @staticmethod
-    def get_random_string(max_length):
+    def get_random_string(string_length):
         str = ''
-        length = random.randint(1, max_length)
         count = 0
-        while (count < length):
+        while (count < string_length):
             s = Randomizer.alphabet[random.randint(0, len(Randomizer.alphabet)-1)]
             if( random.randint(1, 1000) % 2 == 0):
                 s = s.upper()
