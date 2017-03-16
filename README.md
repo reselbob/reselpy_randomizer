@@ -15,7 +15,7 @@ The **reselpy_randomizer** provides a set of methods that generate random data. 
 * String of random length, with random characters
 * Phrase poopulate with random words
 
-#Examples
+# Examples
 
 The follow sections provide a listing of each method with examples
 
