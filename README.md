@@ -19,11 +19,11 @@ The **reselpy_randomizer** provides a set of methods that generate random data. 
 
 The follow sections provide a listing of each method with examples
 
-##Import statement
+## Import statement
 
 `from randomizer import Randomizer`
 
-##Randomizer.get_random_first_name()
+## Randomizer.get_random_first_name()
 
 Gets a random name for a list of 5000 common first names
 
@@ -34,7 +34,7 @@ Gets a random name for a list of 5000 common first names
 **returns** 'Britt'
 
 
-##Randomizer.get_random_last_name()
+## Randomizer.get_random_last_name()
 
 Gets a random name for a list of 5000 common last names
 
@@ -46,7 +46,7 @@ str = Randomizer.get_random_last_name()
 
 
 
-##Randomizer.get_random_email(first_name, last_name)
+## Randomizer.get_random_email(first_name, last_name)
 
 **Example**
 ```python
@@ -57,7 +57,7 @@ str = Randomizer.get_random_last_name()
 **returns** 'Alta.Jann@keyed.tv'
 
 
-##Randomizer.get_random_city()
+## Randomizer.get_random_city()
 
 Gets a random city according to the United States Postal Service Zip Code direcctory
 
@@ -78,7 +78,7 @@ city = Randomizer.get_random_city()
   }
 ```
 
-##Randomizer.get_random_int(min, max)
+## Randomizer.get_random_int(min, max)
 
 **Example**
 ```python
@@ -89,7 +89,7 @@ int = Randomizer.get_random_int(min, max)
 **returns**99
 
 
-##Randomizer.get_random_float(min, max)
+## Randomizer.get_random_float(min, max)
 
 **Example**
 ```python
@@ -100,7 +100,7 @@ flt = Randomizer.get_random_float(min, max)
 **returns** 51.80303608846783
 
 
-##Randomizer.get_random_string(max_length)
+## Randomizer.get_random_string(max_length)
 
 **Example**
 ```python
@@ -111,7 +111,7 @@ str = Randomizer.get_random_string(string_length)
 
 
 
-##Randomizer.get_random_phrase(number_of_words)
+## Randomizer.get_random_phrase(number_of_words)
 
 **Example**
 ```python
