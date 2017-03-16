@@ -25,7 +25,7 @@ The follow sections provide a listing of each method with examples
 
 ## Randomizer.get_random_first_name()
 
-Gets a random name for a list of 5000 common first names
+Gets a random name from a list of 5000 common first names
 
 **Example**
 ```python
@@ -36,7 +36,7 @@ Gets a random name for a list of 5000 common first names
 
 ## Randomizer.get_random_last_name()
 
-Gets a random name for a list of 5000 common last names
+Gets a random name from a list of 5000 common last names
 
 **Example**
 ```python
@@ -86,7 +86,7 @@ min = 1
 max = 100
 int = Randomizer.get_random_int(min, max)
  ```
-**returns**99
+**returns** 99
 
 
 ## Randomizer.get_random_float(min, max)
