@@ -1,4 +1,5 @@
 # reselpy_randomizer
+
 A simple utility module for providing random data.
 
 The purpose of this project is twofold. The first purpose is to provide me with a structured way to learn Python. The second purpose is make a modest contribution to those programmers that might need a utility for generating random data.
@@ -15,12 +16,15 @@ The **reselpy_randomizer** provides a set of methods that generate random data. 
 * Phrase poopulate with random words
 
 #Examples
+
 The follow sections provide a listing of each method with examples
 
 ##Import statement
+
 `from randomizer import Randomizer`
 
 ##Randomizer.get_random_first_name()
+
 Gets a random name for a list of 5000 common first names
 
 **Example**
@@ -33,6 +37,7 @@ Gets a random name for a list of 5000 common first names
 ```
 
 ##Randomizer.get_random_last_name()
+
 Gets a random name for a list of 5000 common last names
 
 **Example**
@@ -46,6 +51,7 @@ str = Randomizer.get_random_last_name()
 
 
 ##Randomizer.get_random_email(first_name, last_name)
+
 **Example**
 ```python
  first_name = Randomizer.get_random_first_name()
@@ -58,6 +64,7 @@ str = Randomizer.get_random_last_name()
 ```
 
 ##Randomizer.get_random_city()
+
 Gets a random city according to the United States Postal Service Zip Code direcctory
 
 **Example**
@@ -75,6 +82,7 @@ city = Randomizer.get_random_city()
 }
 ```
 ##Randomizer.get_random_int(min, max)
+
 **Example**
 ```python
 min = 1
@@ -87,6 +95,7 @@ int = Randomizer.get_random_int(min, max)
 ```
 
 ##Randomizer.get_random_float(min, max)
+
 **Example**
 ```python
 min = 1.25
@@ -99,6 +108,7 @@ flt = Randomizer.get_random_float(min, max)
 ```
 
 ##Randomizer.get_random_string(max_length)
+
 **Example**
 ```python
 string_length = 20
@@ -110,6 +120,7 @@ str = Randomizer.get_random_string(string_length)
 ```
 
 ##Randomizer.get_random_phrase(number_of_words)
+
 **Example**
 ```python
 number_of_words = 12
