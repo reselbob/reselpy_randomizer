@@ -33,7 +33,7 @@ Gets a random name from a list of 5000 common first names
 ```python
  str = Randomizer.get_random_first_name()
  ```
-**returns** 'Britt'
+**returns** `'Britt'`
 
 
 ## Randomizer.get_random_last_name()
@@ -44,7 +44,7 @@ Gets a random name from a list of 5000 common last names
 ```python
 str = Randomizer.get_random_last_name()
  ```
-**returns** 'Hoppin'
+**returns** `'Hoppin'`
 
 
 
@@ -54,9 +54,9 @@ str = Randomizer.get_random_last_name()
 ```python
  first_name = Randomizer.get_random_first_name()
  last_ name = Randomizer.get_random_last_name()
- email = Randomizer.get_random_email(first_name, last_ name)
+ email = Randomizer.get_random_email(first_name, last_name)
   ```
-**returns** 'Alta.Jann@keyed.tv'
+**returns** `'Alta.Jann@keyed.tv'`
 
 
 ## Randomizer.get_random_city()
@@ -88,7 +88,7 @@ min = 1
 max = 100
 int = Randomizer.get_random_int(min, max)
  ```
-**returns** 99
+**returns** `99`
 
 
 ## Randomizer.get_random_float(min, max)
@@ -99,7 +99,7 @@ min = 1.25
 max = 87.0124
 flt = Randomizer.get_random_float(min, max)
  ```
-**returns** 51.80303608846783
+**returns** `51.80303608846783`
 
 
 ## Randomizer.get_random_string(max_length)
@@ -109,7 +109,7 @@ flt = Randomizer.get_random_float(min, max)
 string_length = 20
 str = Randomizer.get_random_string(string_length)
  ```
-**returns** 'gF&77Q*$No!M2tB@#8*O'
+**returns** `'gF&77Q*$No!M2tB@#8*O'`
 
 
 
@@ -123,6 +123,6 @@ phrase = Randomizer.get_random_phrase(number_of_words)
 
 **returns**
 
-'capsheaf millenarist levoversion yawnful dvandva extradition Feramorz decameral begut gallowglass octacolic daggerlike'
+`'capsheaf millenarist levoversion yawnful dvandva extradition Feramorz decameral begut gallowglass octacolic daggerlike'`
 
 
