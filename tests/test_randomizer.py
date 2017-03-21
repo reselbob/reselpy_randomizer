@@ -1,5 +1,5 @@
 from unittest import TestCase
-from randomizer.randomizer import Randomizer
+from reselpy_randomizer.randomizer import Randomizer
 
 
 class TestRandomizer(TestCase):
