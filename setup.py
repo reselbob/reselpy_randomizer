@@ -14,7 +14,6 @@ setup(
     packages=['reselpy_randomizer'],
     package_dir={'reselpy_randomizer': 'reselpy_randomizer'},
     package_data={'reselpy_randomizer': ['data/*.js']},
-    include_package_data=True,
     license="MIT license",
     keywords=['reselpy_randomizer', 'randomizer', 'randomization', 'random'],
     test_suite='tests'
