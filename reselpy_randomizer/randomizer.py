@@ -18,9 +18,11 @@ class Randomizer:
     extensions = ['com', 'net', 'org', 'io', 'tv']
     alphabet = string.ascii_lowercase + string.digits + '!@#$%^&*()_+'
 
+
     @staticmethod
     def get_random_city():
-        return Randomizer.secure_random.choice(Randomizer.cities)
+        city = Randomizer.secure_random.choice(Randomizer.cities)
+        city.map = get_map()
     
     @staticmethod
     def get_random_first_name():
