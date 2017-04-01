@@ -18,11 +18,14 @@ class Randomizer:
     extensions = ['com', 'net', 'org', 'io', 'tv']
     alphabet = string.ascii_lowercase + string.digits + '!@#$%^&*()_+'
 
+    def get_map(lat, lng):
+        return None
 
     @staticmethod
     def get_random_city():
         city = Randomizer.secure_random.choice(Randomizer.cities)
-        city.map = get_map() #needs implmentation
+        city['map'] = Randomizer.get_map(city['latitude'], city['longitude']) #needs implementation
+        return city
     
     @staticmethod
     def get_random_first_name():
