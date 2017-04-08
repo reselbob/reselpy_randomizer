@@ -18,9 +18,15 @@ class Randomizer:
     extensions = ['com', 'net', 'org', 'io', 'tv']
     alphabet = string.ascii_lowercase + string.digits + '!@#$%^&*()_+'
 
+    def get_map_url(lat, lng):
+        return "http://maps.google.com/maps?q=loc:%s,%s" % (lat, lng)
+
+
     @staticmethod
     def get_random_city():
-        return Randomizer.secure_random.choice(Randomizer.cities)
+        city = Randomizer.secure_random.choice(Randomizer.cities)
+        city['map_url'] = Randomizer.get_map_url(city['latitude'], city['longitude']) #needs implementation
+        return city
     
     @staticmethod
     def get_random_first_name():
