@@ -77,7 +77,7 @@ city = Randomizer.get_random_city()
     'state': 'NY', 
     'longitude': '40.71',
     'latitude': '-73.99'
-    '
+    'map_url': '"http://maps.google.com/maps?q=loc:-73.99,40.71"'
   }
 ```
 
