@@ -9,7 +9,7 @@ The **reselpy_randomizer** provides a set of methods that generate random data. 
 * First Name
 * Last Name
 * Email
-* US City, according to city, state, postal code and lat/long, URL for map
+* US City, according to city, state, postal code, lat/long, and with url for map 
 * Integer
 * Float
 * String of random length, with random characters
@@ -77,6 +77,7 @@ city = Randomizer.get_random_city()
     'state': 'NY', 
     'longitude': '40.71',
     'latitude': '-73.99'
+    '
   }
 ```
 
